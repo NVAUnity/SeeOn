@@ -1,0 +1,173 @@
+@import './reset.css';
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+}
+
+/* Шапка */
+
+.header {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.header_text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.header_text h1 {
+    color: var(--white-color);
+    font-family: "Rubik Light";
+    font-size: 20px;
+}
+.header_text h2 {
+    color: var(--white-color);
+    font-family: "Avenir Bold";
+    font-size: 20px;
+}
+
+.poster {
+    position: relative;
+}
+.poster_img {
+    width: 335px;
+    height: 240px;
+    border-radius: 40px;
+}
+.poster_bg {
+    position: absolute;
+    top: 0;
+    left: -20px;
+    min-width: 375px;
+    height: 240px;
+    border-radius: 80px;
+    filter:blur(100px);
+    z-index: -1;
+}
+
+.title {
+    font-family: Avenir Regular;
+    font-size: 20px;
+    color: var(--white-color);
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.info_content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.info_content-item {
+    background-color: var(--gray-color);
+    border-radius: 16px;
+    display: flex;
+    padding: 16px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+.info_item {
+    color: var(--white-color);
+    font-size: 16px;
+    font-family: Rubik Light;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info_border {
+    background-color: var(--white-color);
+    width: 1px;
+    height: 8px;
+}
+.tag_content {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+.tag {
+    padding: 8px 12px;
+    border-radius: 12px;
+    color: var(--gray-color);
+    font-size: 16px;
+    font-family: Rubik Light;
+}
+
+
+.cast {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.actors {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.actors_content {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    overflow-y: auto;
+}
+.actor {
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+}
+.crew {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+}
+.crew_img {
+    border-radius: 40px;
+    width: 164px;
+    height: 164px;
+}
+.crew_content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.crew_name {
+    font-family: Rubik Regular;
+    font-size: 20px;
+    color: var(--white-color);
+}
+.crew_status {
+    padding: 8px 12px;
+    border-radius: 12px;
+    color: var(--gray-color);
+    font-size: 16px;
+    font-family: Rubik Light;
+    background-color: var(--purple-color);
+    width: fit-content;
+}
+
+.dis {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.dis_content {
+    padding: 20px;
+    border-radius: 32px;
+    background-color: var(--gray-color);
+    color: var(--white-color);
+    font-size: 16px;
+    font-family: Rubik Light;
+    text-align: center;
+    line-height: 140%;
+}

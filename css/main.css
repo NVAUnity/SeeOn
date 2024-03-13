@@ -1,0 +1,111 @@
+:root {
+    --white-color: #E9E9E9;
+    --black-color: #151515;
+    --gray-color: #1F1F1F;
+    --fantastic-color: #AAE5F7;
+    --horror-color: #AAB8F7;
+    --melodrama-color: #F7AAAA;
+    --fantasy-color: #DAAAF7;
+    --comedy-color: #F1F7AA;
+    --thriller-color: #E3FFFA;
+    --green-color: #64D98C;
+    --purple-color: #9764D9;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background: transparent;
+}
+
+.body {
+    background-color: var(--black-color);
+    line-height: 100%;
+    padding-bottom: 80px;
+}
+
+.container {
+    width: 335px;
+}
+
+.block_name {
+    font-family: "Avenir Regular";
+    font-size: 20px;
+    color: var(--white-color);
+}
+
+.button_all {
+    font-family: "Rubik Light";
+    font-size: 16x;
+    color: var(--white-color);
+}
+
+/* Меню */
+
+
+
+/* Жанры */
+
+.fantastic {
+    background-color: var(--fantastic-color);
+}
+.horror {
+    background-color: var(--horror-color);
+}
+.melodrama {
+    background-color: var(--melodrama-color);
+}
+.fantasy {
+    background-color: var(--fantasy-color);
+}
+.comedy {
+    background-color: var(--comedy-color);
+}
+.thriller {
+    background-color: var(--thriller-color);
+}
+
+/* Фильмы */
+
+.film {
+    width: 164px;
+    height: 164px;
+    border-radius: 40px;
+    background-color: var(--comedy-color);
+    background-size: contain;
+}
+
+/* Кинотеатр */
+
+.cinema {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: var(--green-color);
+}
+
+.cinema_text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    color: var(--gray-color);
+}
+.cinema_name {
+    font-family: "Rubik Regular";
+    font-size: 20px;
+}
+.cinema_text_content {
+    font-family: "Rubik Light";
+    font-size: 16px;
+}
+
+.cinema_icon {
+    padding: 12px;
+    background-color: var(--gray-color);
+    border-radius: 26px;
+}
+.cinema_img {
+    width: 28px;
+    height: 28px;
+}

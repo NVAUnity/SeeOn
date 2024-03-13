@@ -1,0 +1,27 @@
+@font-face {
+	font-family: "Rubik Light"; 
+	src: url("../fonts/rubik-light.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: "Rubik Regular"; 
+	src: url("../fonts/rubik-regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: "Avenir Regular"; 
+	src: url("../fonts/avenirnextcyr-regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: "Avenir Bold"; 
+	src: url("../fonts/avenirnextcyr-bold.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
